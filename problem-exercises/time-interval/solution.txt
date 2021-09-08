@@ -1,0 +1,5 @@
+1. Sort the intervals wrt to start time(nlogn)
+2. Loop through all the tuples starting from 2nd in list
+   a. If first interval is last interval, add to new list
+   b. If the current tuple end time overlaps with next tuples start time, merge the tuples
+   c. else add fist interval to new list
